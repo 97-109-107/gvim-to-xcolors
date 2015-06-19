@@ -55,5 +55,8 @@ The **normal** group is treated separately and the Normal background and foregro
 Run with python3 and point to a theme file.
 ``python3 gvim-to-xcolors.py ~/.vim/colors/dracula.vim``
 
+# Problems #
+Will not produce good results with more advances themes where there are variables and conditions. For such cases one can feed the script the output of ``:hi`` *(:redir is helpful here. [More help](https://superuser.com/questions/167352/how-do-i-copy-command-output-in-vim))*
+
 # Works well with #
 I use it to generate i3wm colorschemes in conjunction with Charles Leifer's [themer](http://charlesleifer.com/blog/using-python-to-generate-awesome-linux-desktop-themes/)
